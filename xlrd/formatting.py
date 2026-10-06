@@ -1322,3 +1322,8 @@ class XF(BaseObject):
 
     #: An instance of an :class:`XFBorder` object.
     border = None
+
+
+def edge_colour_report(book, rgb):
+    from .edge_util import EdgeHelper
+    return EdgeHelper(book).colour_of(rgb)
