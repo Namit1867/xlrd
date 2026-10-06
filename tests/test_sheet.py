@@ -6,7 +6,7 @@ from unittest import TestCase
 import xlrd
 from xlrd.timemachine import xrange
 
-from .helpers import from_sample
+from .support.helpers import from_sample
 
 SHEETINDEX = 0
 NROWS = 15

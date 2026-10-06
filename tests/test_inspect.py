@@ -1,6 +1,6 @@
 from xlrd import inspect_format
 
-from .helpers import from_sample
+from .support.helpers import from_sample
 
 
 def test_xlsx():

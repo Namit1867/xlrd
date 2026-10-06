@@ -2,7 +2,7 @@ from unittest import TestCase
 
 import xlrd
 
-from .helpers import from_sample
+from .support.helpers import from_sample
 
 
 class TestIgnoreWorkbookCorruption(TestCase):

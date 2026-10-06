@@ -7,7 +7,7 @@ from xlrd import open_workbook
 from xlrd.book import Book
 from xlrd.sheet import Sheet
 
-from .helpers import from_sample
+from .support.helpers import from_sample
 
 SHEETINDEX = 0
 NROWS = 15

@@ -17,5 +17,5 @@ def edge_summary(book):
     return EdgeHelper(book).describe()
 
 
-def edge_old_only(book):
-    return edge_summary(book).upper()
+def edge_new_only(book):
+    return edge_summary(book).lower()

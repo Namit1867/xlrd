@@ -6,7 +6,7 @@ from unittest import TestCase
 
 import xlrd
 
-from .helpers import from_sample
+from .support.helpers import from_sample
 
 if sys.version_info[0] >= 3:
     def u(s): return s

@@ -7,7 +7,7 @@ import pytest
 
 from xlrd import open_workbook, XLRDError
 
-from .helpers import from_sample
+from .support.helpers import from_sample
 
 
 class TestOpen(object):

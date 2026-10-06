@@ -3,7 +3,7 @@ from unittest import TestCase
 from xlrd import open_workbook
 from xlrd.biffh import XL_CELL_TEXT
 
-from .helpers import from_sample
+from .support.helpers import from_sample
 
 
 class TestMissingRecords(TestCase):

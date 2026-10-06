@@ -5,7 +5,7 @@ import unittest
 import xlrd
 from xlrd.timemachine import UNICODE_LITERAL
 
-from .helpers import from_sample
+from .support.helpers import from_sample
 
 
 class TestCell(unittest.TestCase):
