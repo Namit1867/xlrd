@@ -1319,6 +1319,3 @@ class XF(BaseObject):
 
     #: An instance of an :class:`XFAlignment` object.
     alignment = None
-
-    #: An instance of an :class:`XFBorder` object.
-    border = None
