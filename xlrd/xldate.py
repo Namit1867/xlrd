@@ -57,6 +57,7 @@ class XLDateBadTuple(XLDateError):
 
 
 def xldate_as_tuple(xldate, datemode):
+    # Helix test: an edit inside a function linked to domain concepts.
     """
     Convert an Excel number (presumed to represent a date, a datetime or a time) into
     a tuple suitable for feeding to datetime or mx.DateTime constructors.
