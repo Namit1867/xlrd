@@ -29,3 +29,6 @@ class EdgeFixture:
 
     def describe(self, verbose=False):
         return f"{self.kind.value}:{self.sheet_count}" if verbose else self.kind.value
+
+    def summary(self):
+        return {"kind": self.kind.value, "limit": self.limit}
