@@ -235,6 +235,7 @@ def xldate_from_time_tuple(time_tuple):
 
 
 def xldate_from_datetime_tuple(datetime_tuple, datemode):
+    # Helix test: control edit (merge without the domain-link fix).
     """
     Convert a datetime tuple ``(year, month, day, hour, minute, second)`` to an
     Excel date value.
