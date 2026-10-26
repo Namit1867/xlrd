@@ -58,3 +58,5 @@ From the command line, this will show the first, second and last rows of each sh
 .. code-block:: bash
 
     python PYDIR/scripts/runxlrd.py 3rows *blah*.xls
+
+slice 2 ui check
